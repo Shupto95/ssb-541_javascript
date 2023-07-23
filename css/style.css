@@ -1,0 +1,44 @@
+.f_1{
+    margin-bottom: 75px;
+}
+.f_2{
+    margin-bottom: 75px;
+}
+.bg{
+	margin: 100px 0 100px;
+}
+.people{
+	position: relative;
+}
+.p_img img{
+	width: 100%;
+}
+.icon{
+	position: absolute;
+	top: 50px;
+	opacity: 0;
+}
+.icon ul{
+	list-style: none;
+	padding-left: 0;
+	background-color: white;
+}
+.icon ul li{
+
+}
+.icon ul li i{
+	font-size: 30px;
+	padding: 7px 10px;
+	color: #8e8e8e;
+
+}
+.sona{
+	font-size: 38px !important;
+}
+.icon ul li i:hover{
+	color: black;
+	border-right: 2px solid black;
+}
+.people:hover .icon{
+	opacity: 1;
+}
